@@ -22,6 +22,7 @@ public class Print_Even_Numbers {
 		
 		System.out.println(arrayList);
 	
+		// Printing Even numbers
 		
 		for(int i=0;i<=arrayList.size();i++) {
 			
@@ -31,6 +32,21 @@ public class Print_Even_Numbers {
 				System.out.println(i);
 				
 			}
+			
+			
+			
+			//Printing Odd numbers
+			
+			
+			for(int i=0;i<=arrayList.size();i++) {
+			
+			
+			if (i%2!=0) {
+				
+				System.out.println(i);
+				
+			}
+				
 			
 			
 		}
